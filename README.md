@@ -6,6 +6,14 @@
 
 This project is adapted from [Part Time Larry's](https://www.youtube.com/watch?v=OhvQN_yIgCo "Candlestick Charts in Python") "Candlestick Charts in Python" video on retrieving historical stock prices programmatically with yahoo finance python package as well as with the IEX Cloud platform. We then given an example of how to plot the prices using plotly. 
 
+## Usage
+
+- Fork this repo or download to your local machine.
+- pip install packages in requirements.txt.
+- Gather data by running *.py files in DataSources directory. These will generate csv files.
+- Plot data by running chart.py.
+- Edit files to your liking. Enjoy!
+
 ## Links
 
 - [Repo](https://github.com/roderpad/GetStockData "GetStockData Repo")
