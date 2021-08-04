@@ -10,5 +10,5 @@ print('')
 print('The history output is the following:')
 print(history) # Prints history
 print('The csv output of history is the following:')
-print(history.to_csv(index=False, line_terminator='\n')) # Prints history as .csv file. Only need index and line_terminatory options if using Windows...
+print(history.to_csv(index=False, line_terminator='\n')) # Prints history as .csv file. Only need index and line_terminator options if using Windows...
 # To create [filename].csv for this output, run 'python DataSources/yahoo.py > [filename].csv
