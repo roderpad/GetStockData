@@ -9,7 +9,6 @@ print(type(history)) # Prints the type that history outputs
 print('')
 print('The history output is the following:')
 print(history) # Prints history
-print('')
 print('The csv output of history is the following:')
-print(history.to_csv()) # Prints history as .csv file.
+print(history.to_csv(index=False, line_terminator='\n')) # Prints history as .csv file. Only need index and line_terminatory options if using Windows...
 # To create [filename].csv for this output, run 'python DataSources/yahoo.py > [filename].csv
